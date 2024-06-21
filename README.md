@@ -3,7 +3,7 @@ graph TD
   A[Requisition from Departments] --> B[Submission of Requisition to Storekeeper]
   B --> C[Storekeeper raises Purchase Requisition to Stock Controller]
   C --> D[Stock Controller raises Local Purchase Order]
-  D --> E[LPO approved by Director(s)]
+  D --> E[LPO approved by Directors]
   E --> F[Supplier shares Proforma Invoice]
   F --> G[Receiving Goods]
   G --> H[Security and Stock Controller checks]
